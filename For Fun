@@ -1,0 +1,12 @@
+function greet(name) {
+  if (typeof name === "undefined") {
+    name = "you";
+  }
+  return "Good morning " + name + "!";
+}
+function convertToFahrenheit(celsius=0) {
+  if (typeof(celsius) === "undefined") {
+  var celsius = 0;
+  }
+ return (celsius *  9/5) + 32;
+}
